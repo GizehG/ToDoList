@@ -1,5 +1,6 @@
 import React from 'react'
 import Task from './Task'
+import './Styles.css';
 
 export default function ToDoList({tasksList, toggleTask }) {
   return (

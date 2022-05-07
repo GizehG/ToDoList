@@ -6,7 +6,7 @@ export default function Task({ task, toggleTask }) {
     }
   return (
     <div>
-        <input type="checkbox" checked={task.done} onChange={handleTaskClick} />
+        <input className="Checkbox" type="checkbox" checked={task.done} onChange={handleTaskClick} />
         {task.name}
     </div>
   )
